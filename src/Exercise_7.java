@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Exercise_7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the first number: ");
+        System.out.print("Enter the first number: ");
         double numberOne = scanner.nextInt();
-        System.out.println("Enter the second number: ");
+        System.out.print("Enter the second number: ");
         double numberTwo = scanner.nextInt();
-        double difference;
+        double difference = 0;
         double divisionOne;
         double divisionTwo;
         if (numberOne - numberTwo == 0) {
@@ -30,5 +30,6 @@ public class Exercise_7 {
                 }
             }
         }
+        System.out.println("Greatest common multiple: " + difference);
     }
 }
